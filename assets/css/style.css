@@ -1,0 +1,405 @@
+/*Universal selector*/
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+/*variables*/
+:root{
+    --textshadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+    --background: linear-gradient(to right, #8c6be7 , #6f1503);
+    background-clip: text;
+    --contactbg:linear-gradient(rgb(213, 204, 217), rgb(199, 173, 218), rgb(184, 142, 218), rgb(167, 110, 217), rgb(147, 77, 216));
+}
+body{
+    background-color: #bfb4d1;
+}
+/*main header with all navigation links and logo*/
+header{
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position:static;
+    background-image: var(--background)
+    
+}
+/* logo of my name Amrit */
+.logo{
+    font-size:2em;
+    color:#2d2626;
+    cursor: default;
+    font-weight: 800;
+}
+.logo span{
+    font-size: 2.5rem;
+    color:#ccb7e7;
+    text-shadow: 2px 4px black;
+}
+/* Css for all navigation links  */
+.navigation a{
+    font-size: 1.4em;
+    text-decoration: none;
+    color:#f7f4f4;
+    margin-right:40px;
+    margin-left: 20px; 
+    font-weight: 800;
+    transition: 0.3s;
+    text-shadow: var(--textshadow)
+}
+.navigation span{
+    text-decoration: underline;
+}
+.navigation a:hover{
+    color:#0a0a0a; 
+}
+/* lets talk button  */
+.btn-talk{
+    color:#fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background-color:#7d2ae8 ;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.btn-talk:hover{
+    color:#e9e2f3;
+    background: transparent;
+}
+/* content in home page  */
+.home{
+    background-color: #bfb4d1;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items:center;
+    padding:13px 8px;
+}
+.home img{
+margin-left:-60px;
+margin-right:45px;
+opacity:1;
+}
+.content{
+    max-width:500px ;
+    color:#6d0d0d;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex:2 0 100px;
+    flex-wrap: wrap;  
+}
+section img{
+    max-width:100%;
+    height:auto;
+    flex:2 0 200px;
+}
+.content h2{
+    font-size: 2.5em;
+}
+.content span{
+    color:#7e47c5;
+}
+.content h3{
+    font-size: 1.7em;
+    margin: auto; 
+}
+.content p {
+    font-size: 1rem;
+    padding:10px 40px 40px 0;
+    font-weight: 600;
+}
+.btn-group a{
+    color: #fff;
+    text-decoration: none;
+    padding:10px 40px;
+    background-color:#7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: 0.3s;
+    flex-direction: column;
+}
+.btn-group a:hover:nth-child(1){
+    color: #7d2ae8;
+    background-color: transparent;
+}
+.btn-group a:nth-child(2){
+    color: #7d2ae8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2){
+    color: #fff;
+    background-color: #7d2ae8;
+}
+/* Media Queries for header */
+@media screen and (max-width:1196px) {
+    .home{
+        display: flex;
+        flex-direction:column;}
+    h2{
+        font-size: 15px;
+    }
+    .btn-group{
+        flex-direction:column;
+    }
+    header{
+        flex-direction: column;
+    }
+    .social-icons a{
+        padding:5px 2px;
+    }
+    }
+/* About Section in main  */
+.about{
+   background-color: #bfb4d1;
+   display: flex;
+    height:100vh;
+    width:100vw;
+}
+.about-content{
+   display:flex;
+   flex-wrap: wrap;
+   flex :2 1 100px;
+   max-width:500px ;
+   text-align: center;
+   justify-content: center;
+    }
+.about img{
+    margin-top:5px;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left:1.0rem;
+    transition: 0.4s;
+    flex:1 0 200px;
+    }
+/*heading in about section*/
+.about-h{
+    background-clip: text;
+    background-color: #8c6be7;
+    color:#e4eadb;
+    font-size:2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    transition: 0.3s;
+    border-radius: 9px;
+    text-shadow: var(--textshadow);
+    }
+.about-para{
+    position:relative;
+    display: inline-block;
+    margin:15px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    }
+ @media screen and (max-width:1196px) {
+    .about{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        }
+    .about img{
+        max-width: 85%;
+        }
+     }
+/* Projects of my page  */
+.Projects{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 2%;
+    padding:15px 15px;  
+    background-color: #a6a6d7;
+    }
+.project-h{
+    background-color: #7b4a9c;;
+    color:#e4eadb;
+    font-size:2.0rem;
+    width:100vw;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 8px 5px; 
+    margin:50px 100px; 
+    transition: 0.3s;
+    border-radius: 8px;
+    text-shadow: var(--textshadow)
+    } 
+.card header {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    padding: 20px;
+    background: #cba7d9;
+    color: #52158f;
+     } 
+.card-main header{
+    display: flex;
+    flex-wrap: wrap;
+    background: #5a1773;
+    color: #efeaf1;
+    border:2px solid purple;
+    justify-content: center;
+    padding:25px 5px;
+    margin:5px auto;
+    }
+.card {
+    margin:15px 10px;
+    flex: 0 0 400px;
+    width:25%;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    border:1px solid black;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    background-color: rgba(75, 37, 110, 0.9);
+    }
+.card-main{
+    margin:15px 10px;
+    flex:0 0 420px;
+    width:35%;
+    padding:5px auto;
+    border:1px solid black;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    }
+.card-main:hover{
+    transform: scale(1.10);
+    }
+.card:hover{
+    transform: scale(1.02);
+    }
+.card-main:nth-child(1){
+    width:55vw;
+    height:50%;
+    }
+.card-main img {
+    object-fit: contain;
+    display: flex;
+    flex-wrap: wrap;
+    width:95%;
+    }
+.card img{
+    object-fit: contain;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    min-width: 300px;
+    }
+ @media screen  and (max-width:1196px){
+        .Projects{
+        margin-top:225px; } 
+        }
+    
+#Contact{
+    background-color: #a6a6d7;
+    color: whitesmoke;
+     padding: 4%;
+    width:100vw
+    }
+.container{
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 70%;
+    min-width: 80%;
+    height: 100%;
+    border: solid 2px #120A19;
+    background-color: rgba(75, 37, 110, 0.9);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    }
+h1{
+    background-color: rgba(80, 39, 118, 0.9);
+    display: flex;
+    margin: 4% auto;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 30px ;
+    }
+    /* label  for all input and textarea  */
+label{
+    display: block;
+    margin: auto;
+    padding: 1vh;
+    }
+input[type="text"],input[type="email"], input[type="number"] {
+    display: block;
+    margin: 3% auto;
+    width: 65%;
+    height: 35px;
+    max-height: 30px;
+    border-radius: 5px;
+    border: solid 2px #703aa0;
+    background-color: #DBD6DF;
+    }
+input[type="submit"]{
+    display:block;
+    margin: 4% auto;
+    width: 20%;
+    height: 4vh;
+    background-color: #a78ac4;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    cursor: pointer;
+    }
+input[type="submit"]:hover{
+    background-color: #fcf9ff;
+    font-weight: bolder; 
+    color:#664584
+    }
+    /* textarea for all messages */
+textarea{
+    display: block;
+     margin: 2% auto;
+     width: 65%;
+    height: 16vh;
+    max-height: 165px;
+    border-radius: 5px;
+    border: solid 2px #965bca;
+    background-color: #dcd6e0;
+    font-family: sans-serif;
+    }
+    /* to make it big when hover on textarea and any other input sections */
+ input:hover ,textarea:hover {
+    transform: scale(1.05);
+    }
+  
+/* footer  */
+ footer{
+    background-color: #a6a6d7;
+    text-align: center;
+    padding:30px ;
+}
+.social-icons{
+    display: inline-block;
+    margin:42px 4px;
+    display: inline-block; 
+    border-radius: 10px;
+    margin-right: 22px;
+    text-align: center;
+    line-height:35px; 
+}
+.social-icons a{
+  color: #0a0a0a;
+  text-decoration:underline;
+  padding:10px 40px;
+  background:var(--contactbg);
+  border-radius: 10px;
+  border: 1px dashed #3a126f;
+} 
