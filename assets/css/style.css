@@ -86,6 +86,7 @@ header{
 }
 .home img{
 margin-left:-60px;
+margin: auto;
 margin-right:45px;
 opacity:1;
 }
