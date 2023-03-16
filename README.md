@@ -25,7 +25,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Header background ref- https://www.khroma.co/generator
 
 
-URL of Deployed Application -
+URL of Deployed Application -https://amrit1-kaur.github.io/Amrit-Portfolio/
 
 Screenshot of Portfolio-![2023-03-12 (1)](https://user-images.githubusercontent.com/125145657/224987647-d5653bf5-dd64-4627-bab2-3c4736b5e3c5.png)
 
