@@ -27,5 +27,6 @@ Header background ref- https://www.khroma.co/generator
 
 URL of Deployed Application -https://amrit1-kaur.github.io/Amrit-Portfolio/
 
-Screenshot of Portfolio-![2023-03-12 (1)](https://user-images.githubusercontent.com/125145657/224987647-d5653bf5-dd64-4627-bab2-3c4736b5e3c5.png)
+Screenshot of Portfolio-![2023-03-17 (1)](https://user-images.githubusercontent.com/125145657/225770675-b8b9af16-483d-434f-9466-4da235c859ea.png)
+
 
