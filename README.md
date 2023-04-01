@@ -25,14 +25,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Resources
  Header background ref- https://www.khroma.co/generator
 
-##Support 
-If you encounter any issues or have questions, please open an issue in the GitHub repository or contact me at amrit.gill3005@gmail.com
-
 ## URL of Deployed Application -
 https://amrit1-kaur.github.io/Amrit-Portfolio/
 
 ## Screenshot of Portfolio
 -![2023-03-17 (1)](https://user-images.githubusercontent.com/125145657/225770675-b8b9af16-483d-434f-9466-4da235c859ea.png)
 
-##Support 
+## Support 
 If you encounter any issues or have questions, please open an issue in the GitHub repository or contact me at amrit.gill3005@gmail.com
