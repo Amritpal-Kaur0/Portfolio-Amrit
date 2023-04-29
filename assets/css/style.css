@@ -261,7 +261,7 @@ section img{
     margin:5px auto;
     }
 .card {
-    margin:15px 10px;
+    margin:45px 10px;
     flex: 0 0 400px;
     width:25%;
     padding: 10px 20px;
@@ -272,23 +272,23 @@ section img{
     background-color: rgba(75, 37, 110, 0.9);
     }
 .card-main{
-    margin:15px 10px;
-    flex:0 0 420px;
-    width:35%;
+    margin:5px 5px;
+    padding:5px;
+    /* flex:0 0 420px; */
+    width:100vw;
     padding:5px auto;
     border:1px solid black;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     }
-.card-main:hover{
-    transform: scale(1.10);
-    }
+
 .card:hover{
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
+    transform: scale(0.90);
     }
-.card-main:nth-child(1){
+/* .card-main:nth-child(1){
     width:55vw;
     height:50%;
-    }
+    } */
 .card-main img {
     object-fit: contain;
     display: flex;
