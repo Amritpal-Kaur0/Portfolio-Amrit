@@ -1,25 +1,6 @@
 # -Amrit-s-Portfolio
-## User Story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position.
-
-
-## Acceptance Criteria
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name,  and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am hover on the developer's first application
-THEN that application's image is looking larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-
+## Description
+The portfolio website that I have created is a digital platform that showcases my professional profile and highlights my skills, achievements, and projects. It includes an "About" section that provides a brief summary of your background,, giving visitors a sense of who you are and what you can offer. The "Projects" section displays my best work examples, organized in a visually appealing gallery with brief descriptions and links to each project. This section helps potential clients or employers see the quality and scope of my work and understand my creative process. The website also includes a "Contact" section, where visitors can easily reach out to me  to inquire about your services or collaborate on projects. The contact section may include a contact form, email address, phone number. The website is designed to be user-friendly and accessible on multiple devices, ensuring that visitors can easily navigate and engage with my content. 
 
 
 ## Resources
